@@ -1,4 +1,4 @@
-Spring Increment same DB Column my multiple Threads
+Spring Project to Increment same DB Column my multiple Threads
 
 The task is to consistently increment a number in a database when parallel threads are racing to increment the number.
 Create a table Number in MySQL database with one integer type field.
