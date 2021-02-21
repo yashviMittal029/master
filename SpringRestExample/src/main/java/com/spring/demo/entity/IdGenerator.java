@@ -21,6 +21,10 @@ public class IdGenerator implements Serializable {
 	@Column(name="num")
 	Integer num;
 	
+	@Column(name = "version")
+	@Version
+	private Long version;
+	
 	public Integer getId() {
 		return id;
 	}
@@ -35,6 +39,14 @@ public class IdGenerator implements Serializable {
 
 	public void setNumber(Integer num) {
 		this.num = num;
+	}
+	
+	public Long getVersion() {
+		return version;
+	}
+
+	public void setVersion(Long version) {
+		this.version = version;
 	}
 
 	public IdGenerator() {
