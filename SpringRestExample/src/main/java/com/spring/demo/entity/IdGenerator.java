@@ -40,14 +40,6 @@ public class IdGenerator implements Serializable {
 	public void setNumber(Integer num) {
 		this.num = num;
 	}
-	
-	public Long getVersion() {
-		return version;
-	}
-
-	public void setVersion(Long version) {
-		this.version = version;
-	}
 
 	public IdGenerator() {
 		 
